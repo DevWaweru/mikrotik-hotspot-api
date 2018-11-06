@@ -2,7 +2,7 @@
 ## Automated mikrotik hotspot service
 ### November 6th, 2018
 
-### Description
+## Description
 This service automates the process of manually adding, changing and removing a user from the mikrotik hotspot.
 
 Internet users create and/or change their log in credentials for accessing the internet. Their credentials become active only when they have made a payment.
@@ -12,7 +12,11 @@ Payments are made using M-Pesa API. However, integration with other payment syst
 All payments are recorded, and the admin has a visual representation of the amount earned per month on a graph. The admin panel shows active users and all users on the mikrotik router. 
 **The admin dashboard can only be viewed by the admin** and is inaccessible by other users.
 
-Admin is responsible for checking for expired users. The process is done automatically after 6 hours is admin is lazy.
+Admin is responsible for checking for expired users. The process is done automatically after 6 hours if admin is lazy.
+
+Login to the demo site using the following credentials. Most features will not work 100% correctly since it is a demo version.
+    username: manager
+    password: mikrotikapi
 
 ## Technologies used
     - Python 3.6
